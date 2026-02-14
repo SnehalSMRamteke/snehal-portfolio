@@ -749,3 +749,29 @@ body {
     width: 100%;
   }
 }
+
+
+/* ........................................... */
+
+/* Tablet & below */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+}

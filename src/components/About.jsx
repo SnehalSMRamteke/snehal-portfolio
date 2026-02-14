@@ -10,57 +10,75 @@ import aboutimage from "../assets/gradient-metaverse-illustration_23-2149265633e
 export default function About() {
   return (
     <>
-    <section className="sectionskills" >
-      <Container>
-        <Row>
-          <Col > <ImHtmlFive2  color="#de4923"  size={30}/>HTML</Col>
-          <Col > <TbBrandCss3 color="#0b6db3" size={38} />CSS </Col>
-          <Col > <IoLogoNodejs color="#ceb32f" size={35}/>Javascript</Col>
-          <Col > <RiBootstrapLine color="#8814f5" size={35} />Boothstrap</Col>
-          <Col > <GrReactjs color="#00d5f7" size={30} /> React JS</Col>
-          <Col > <GrNode color="#7fc728" size={30} />Node JS</Col>
-          <Col > <TbBrandMongodb color="#69a746" size={35} />Mongo DB</Col>
-          
-        </Row>
-      </Container>
-    </section>
+    <section className="sectionskills">
+  <Container>
+    <Row className="text-center">
+      <Col xs={6} sm={4} md={3} lg={2}>
+        <ImHtmlFive2 color="#de4923" size={30} />
+        <div>HTML</div>
+      </Col>
 
-     <section className="sectionabout" id="about">
-      <Container>
-        <Row>
-          <Col md={6}>
-            {/* <ul className="services">
-              <li>Website Development</li>
-              <li>App Development</li>
-              <li>Website Hosting</li>
-            </ul> */}
-            <img src={aboutimage} alt="about" width={600} className="img-fluid p-3" />
-          
-          </Col>
+      <Col xs={6} sm={4} md={3} lg={2}>
+        <TbBrandCss3 color="#0b6db3" size={38} />
+        <div>CSS</div>
+      </Col>
 
-          <Col md={6}>
-            <h2>About me</h2>
-            <p>
+      <Col xs={6} sm={4} md={3} lg={2}>
+        <IoLogoNodejs color="#ceb32f" size={35} />
+        <div>JavaScript</div>
+      </Col>
 
-              Hi. I'm Snehal . 
-              I’m a passionate Full Stack Developer with hands-on experience
-              in MERN stack applications using the MERN stack and build scalable & user-friendly web applications.
-              I enjoy solving problems, building real-world products,
-              writing clean code, creating clean UI, writing efficient
-              backend logic and continuously improving my skills.
+      <Col xs={6} sm={4} md={3} lg={2}>
+        <RiBootstrapLine color="#8814f5" size={35} />
+        <div>Bootstrap</div>
+      </Col>
 
-            </p>
+      <Col xs={6} sm={4} md={3} lg={2}>
+        <GrReactjs color="#00d5f7" size={30} />
+        <div>React JS</div>
+      </Col>
 
-            {/* <div className="stats">
-              <div><h3>10+</h3><span>Completed Projects</span></div>
-              <div><h3>100%</h3><span>Client Satisfaction</span></div>
-              <div><h3>Fresher</h3><span>Experience</span></div>
-            </div> */}
-          </Col>
+      <Col xs={6} sm={4} md={3} lg={2}>
+        <GrNode color="#7fc728" size={30} />
+        <div>Node JS</div>
+      </Col>
 
-        </Row>
-      </Container>
-    </section>
+      <Col xs={6} sm={4} md={3} lg={2}>
+        <TbBrandMongodb color="#69a746" size={35} />
+        <div>MongoDB</div>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
+    <section className="sectionabout" id="about">
+  <Container>
+    <Row className="align-items-center">
+      
+      {/* Image */}
+      <Col xs={12} md={6} className="text-center">
+        <img
+          src={aboutimage}
+          alt="about"
+          className="img-fluid p-3"
+        />
+      </Col>
+
+      {/* Text */}
+      <Col xs={12} md={6}>
+        <h2>About me</h2>
+        <p>
+          Hi. I'm Snehal.
+          I’m a passionate Full Stack Developer with hands-on experience
+          in MERN stack applications and building scalable, user-friendly
+          web applications. I enjoy solving problems, writing clean code,
+          and continuously improving my skills.
+        </p>
+      </Col>
+
+    </Row>
+  </Container>
+</section>
     </>
   );
 }
