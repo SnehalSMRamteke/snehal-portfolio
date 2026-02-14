@@ -57,11 +57,7 @@ export default function About() {
       
       {/* Image */}
       <Col xs={12} md={6} className="text-center">
-        <img
-          src={aboutimage}
-          alt="about"
-          className="img-fluid p-3"
-        />
+        <img src={aboutimage} alt="about" className="img-fluid p-3" />
       </Col>
 
       {/* Text */}
