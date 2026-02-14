@@ -1,4 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import heroimage from "../assets/Adobe Express - file.png";
+
 
 export default function Hero() {
   return (
@@ -18,9 +20,7 @@ export default function Hero() {
 
           <Col md={6} lg={6} className="text-center">
             <div className="hero-img-wrapper">
-              <img
-                src="\src\assets\Adobe Express - file.png"
-                alt="profile" />
+              <img src={heroimage} alt="profile" className="img-fluid"/>
             </div>
           </Col>
         </Row>

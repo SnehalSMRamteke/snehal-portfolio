@@ -41,7 +41,7 @@ export const Experience = () => {
                  
                   </div>
                
-                <div className='pt-2'>
+                <div className="pt-2 d-flex flex-wrap justify-content-center justify-content-md-start">
                   <ImHtmlFive2  color="#de4923"  size={30} className='me-2' />  
                   <TbBrandCss3 color="#0b6db3" size={38} className='me-2' />   
                   <IoLogoNodejs color="#ceb32f" size={35} className='me-2' />  

@@ -5,6 +5,7 @@ import { IoLogoNodejs } from "react-icons/io";
 import { RiBootstrapLine } from "react-icons/ri";
 import { TbBrandCss3, TbBrandMongodb } from "react-icons/tb";
 import { TiHtml5 } from "react-icons/ti";
+import aboutimage from "../assets/gradient-metaverse-illustration_23-2149265633edit.png";
 
 export default function About() {
   return (
@@ -12,11 +13,11 @@ export default function About() {
     <section className="sectionskills" >
       <Container>
         <Row>
-          <Col ><ImHtmlFive2  color="#de4923"  size={30}/>HTML</Col>
-          <Col ><TbBrandCss3 color="#0b6db3" size={38} />CSS </Col>
+          <Col > <ImHtmlFive2  color="#de4923"  size={30}/>HTML</Col>
+          <Col > <TbBrandCss3 color="#0b6db3" size={38} />CSS </Col>
           <Col > <IoLogoNodejs color="#ceb32f" size={35}/>Javascript</Col>
           <Col > <RiBootstrapLine color="#8814f5" size={35} />Boothstrap</Col>
-          <Col ><GrReactjs color="#00d5f7" size={30} /> React JS</Col>
+          <Col > <GrReactjs color="#00d5f7" size={30} /> React JS</Col>
           <Col > <GrNode color="#7fc728" size={30} />Node JS</Col>
           <Col > <TbBrandMongodb color="#69a746" size={35} />Mongo DB</Col>
           
@@ -33,8 +34,8 @@ export default function About() {
               <li>App Development</li>
               <li>Website Hosting</li>
             </ul> */}
-            <img src="\src\assets\gradient-metaverse-illustration_23-2149265633edit.png" alt="about" width={600}
-            className="p-3" />
+            <img src={aboutimage} alt="about" width={600} className="img-fluid p-3" />
+          
           </Col>
 
           <Col md={6}>
@@ -56,7 +57,6 @@ export default function About() {
               <div><h3>Fresher</h3><span>Experience</span></div>
             </div> */}
           </Col>
-
 
         </Row>
       </Container>

@@ -36,9 +36,9 @@ export default function Contact() {
             <p>made by @Snehal Ramteke Ambade</p>
 
             <div className='pt-2'>
-              <FaGithub  color="#000000" size={30} className='me-3' />  
-              <TbBrandLinkedin color="#0b63bd" size={32} className='me-3'/>
-              <BiLogoGmail color="#cf4b3c" size={32} className='me-3'/>
+              <a style={{cursor:"pointer"}} href="https://github.com/SnehalSMRamteke"><FaGithub  color="#000000" size={30} className='me-3'/></a>
+              <a style={{cursor:"pointer"}} href="www.linkedin.com/in/snehal-ramteke-0a6824169"><TbBrandLinkedin color="#0b63bd" size={32} className='me-3'/></a>
+              {/* <a style={{cursor:"pointer"}} href=""><BiLogoGmail color="#cf4b3c" size={32} className='me-3'/></a> */}
 
             </div>
           </Col>

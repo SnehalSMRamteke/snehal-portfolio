@@ -1,4 +1,9 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import dashboardImg from "../assets/dashboardmusiz.PNG";
+import doctorApp from "../assets/doctorApp.PNG";
+import taskManage from "../assets/taskManage.PNG";
+import foodmart from "../assets/foodmart.PNG";
+import peoplediectory from "../assets/peoplediectory.PNG";
 
 export default function Projects() {
   return (
@@ -11,7 +16,7 @@ export default function Projects() {
           <Col md={6}>
             <Card className="project-card ps-1">
               <Card.Body>
-                <Card.Title className="text-light">Spotify (Clone)</Card.Title>
+                <Card.Title className="text-light">MyMusix -Spotify (Clone)</Card.Title>
                 <Card.Text>
                   A full-stack music streaming application with user
                   authentication and management, creating playlists, adding songs and audio playback using the MERN
@@ -43,7 +48,8 @@ export default function Projects() {
           </Col>
 
           <Col md={6} className="code-box">
-            <img src="src\assets\dashboardmusiz.PNG" alt="dashmusiz" width="630px" />
+            <img src={dashboardImg} alt="dashmusiz" width="630px" className="img-fluid"/>
+            {/* <img src="src\assets\dashboardmusiz.PNG" alt="dashmusiz" width="630px" /> */}
           </Col>
         </Row>
 
@@ -80,7 +86,7 @@ export default function Projects() {
           </Col>
 
           <Col md={6} className="code-box">
-            <img src="src\assets\doctorApp.PNG" alt="dashmusiz" width="630px" />
+            <img src={doctorApp} alt="dashDoc" width="630px" className="img-fluid" />
           </Col>
         </Row>
 
@@ -117,7 +123,7 @@ export default function Projects() {
           </Col>
 
           <Col md={6} className="code-box">
-            <img src="src\assets\taskManage.PNG" alt="dashmusiz" width="630px" />
+            <img src={taskManage} alt="dashTaskmang" width="630px" className="img-fluid"/>
           </Col>
         </Row>
 
@@ -153,7 +159,7 @@ export default function Projects() {
           </Col>
 
           <Col md={6} className="code-box">
-            <img src="src\assets\foodmart.PNG" alt="dashmusiz" width="630px" />
+            <img src={foodmart} alt="dashfoodmart" width="630px" className="img-fluid"/>
           </Col>
         </Row>
 
@@ -189,7 +195,7 @@ export default function Projects() {
           </Col>
 
           <Col md={6} className="code-box">
-            <img src="src\assets\peoplediectory.PNG" alt="dashmusiz" width="630px" />
+            <img src={peoplediectory} alt="dashpeople" width="630px" className="img-fluid"/>
           </Col>
         </Row>
 
