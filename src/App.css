@@ -18,7 +18,7 @@ body {
 
 /* NAVBAR */
 .nav-dark {
-  background: rgba(18, 30, 40);  /* rgba(11, 18, 32, 0.95); */
+  background: rgb(18, 30, 40);  /* rgba(11, 18, 32, 0.95); */
   padding: 16px 0;
 }
 
@@ -30,6 +30,9 @@ body {
 
 .nav-dark .nav-link:hover {
   color: #ff6b4a !important;
+}
+.colorDark{
+  background: #00000038 !important;
 }
 
 .logo {
@@ -163,19 +166,39 @@ body {
 }
 
 /* PROFILE IMAGE */
-.hero-img-wrapper {
+/* .hero-img-wrapper {
   /* width: 300px;
-  height: 300px; */
+  height: 300px; /
   border-radius: 50%;
-  /* padding: 12px; */
+  /* padding: 12px;  /
    padding: 80px;
   margin: auto;
   background: radial-gradient(circle, #ff6b4a 0%, transparent 65%);
 }
 
 .hero-img-wrapper img {
-  /* width: 100%; */
+  /* width: 100%; /
   border-radius: 50%;
+} */
+
+.hero-img-wrapper {
+  width: 100%;
+  max-width: 420px;
+  height: 420px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff6b4a 0%, transparent 65%);
+}
+
+/* Image on top of gradient */
+.hero-img {
+  width: 70%;
+  z-index: 1;
 }
 
 /* SECTIONS */
@@ -482,6 +505,9 @@ body {
 
 /* Small mobile */
 @media (max-width: 576px) {
+  .hero-section {
+    width: 100%;
+  }
   .hero-section h1 {
     font-size: 1.7rem;
   }

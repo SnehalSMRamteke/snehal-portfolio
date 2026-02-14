@@ -26,15 +26,12 @@ export default function Hero() {
           </Col>
 
           {/* Image Section */}
-          <Col xs={12} md={6} lg={6} className="text-center">
-            <div className="hero-img-wrapper">
-              <img
-                src={heroimage}
-                alt="profile"
-                className="img-fluid"
-              />
-            </div>
-          </Col>
+        <Col xs={12} md={6} lg={6} className="text-center">
+          <div className="hero-img-wrapper mx-auto">
+            <img src={heroimage} alt="profile" className="img-fluid hero-img" />
+          </div>
+        </Col>
+
 
         </Row>
       </Container>

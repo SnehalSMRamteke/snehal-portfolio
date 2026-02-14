@@ -8,7 +8,7 @@ export default function NavbarComp() {
           Snehal Ramteke Ambade
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="colorDark" />
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

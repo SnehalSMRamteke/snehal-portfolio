@@ -1,6 +1,7 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
 import { TbBrandLinkedin } from "react-icons/tb";
 
 export default function Contact() {
@@ -38,7 +39,11 @@ export default function Contact() {
             <div className='pt-2'>
               <a style={{cursor:"pointer"}} href="https://github.com/SnehalSMRamteke"><FaGithub  color="#000000" size={30} className='me-3'/></a>
               <a style={{cursor:"pointer"}} href="www.linkedin.com/in/snehal-ramteke-0a6824169"><TbBrandLinkedin color="#0b63bd" size={32} className='me-3'/></a>
-              {/* <a style={{cursor:"pointer"}} href=""><BiLogoGmail color="#cf4b3c" size={32} className='me-3'/></a> */}
+             
+            </div>
+             <div className='pt-2'>
+              <a style={{cursor:"pointer", fontSize:"18px"}}><BiLogoGmail color="#cf4b3c" size={30} className='me-1 '/>snehalsramteke@gmail.com</a>
+              <a style={{cursor:"pointer" , fontSize:"18px"}}><FiPhoneCall color="#2294f2" size={28} className='me-1 ms-3'/>91+ 9112050334</a>
 
             </div>
           </Col>
