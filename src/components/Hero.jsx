@@ -1,5 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import heroimage from "../assets/Adobe Express - file.png";
+import resumefile from "../assets/SnehalRamtekeAmbade_fullstackdeveloper.pdf";
 
 export default function Hero() {
   return (
@@ -19,7 +20,7 @@ export default function Hero() {
               <Button className="btn-orange" href="#projects">
                 My projects
               </Button>
-              <Button variant="outline-info" className="resume-btn">
+              <Button variant="outline-info" className="resume-btn" href={resumefile} download>
                 My resume
               </Button>
             </div>
